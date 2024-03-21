@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title> Tiffin service </title>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="./css/one_page_website.css">
+</head>
+
+<body>
+
+<nav>
+<a href="one_page_assignment.html">HOME</a>  |
+<a href="Tiffinservice_video.html">Video</a>  | 
+<a href="tiffinservice.html">Pictures</a>
+</nav>
+
+<p>
+<main>
+<h1>Home made tiffin service</h1>
+<img src=".\Images\Tiffin service.jpg">
+</main>
+
+<p>Please watch this video to get an understanding of how we work</p>
+<a href="https://www.youtube.com/watch?v=8bYbI24cnEY">here</a>
+<h3><b>Breakfast Menu</b></h3>
+
+<ul>
+<li>Idli & Vada</li>
+<li>Dosa</li>
+<li>Uttapam</li>
+<li>Upma</li>
+<li>Roti/phulka with vegetable dish</li>
+<li>Khichdi, khagina and khatta</li>
+<li>Bread and omelette</li>
+<li>Sandwiches</li>
+<li>Noodles</li>
+<li>Macaroni</li>
+<li>Pan cakes</li>
+<li>Boiled eggs – on request</li>
+</ul>
+</p>
+
+<!-- Images used to open the lightbox -->
+<div class="row">
+    <div class="column">
+      <img src=".\Images\tiffin 1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+    </div>
+    <div class="column">
+      <img src=".\Images\tiffin 3.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+    </div>
+    <div class="column">
+      <img src=".\Images\tiffin 4.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+    </div>
+    <div class="column">
+      <img src=".\Images\Tiffin service.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+    </div>
+  </div>
+  
+  <!-- The Modal/Lightbox -->
+  <div id="myModal" class="modal">
+    <span class="close cursor" onclick="closeModal()">&times;</span>
+    <div class="modal-content">
+  
+      <div class="mySlides">
+        <div class="numbertext">1 / 4</div>
+        <img src=".\Images\tiffin 1.jpg" style="width:100%">
+      </div>
+  
+      <div class="mySlides">
+        <div class="numbertext">2 / 4</div>
+        <img src=".\Images\tiffin 3.jpg" style="width:100%">
+      </div>
+  
+      <div class="mySlides">
+        <div class="numbertext">3 / 4</div>
+        <img src=".\Images\tiffin 4.jpg" style="width:100%">
+      </div>
+  
+      <div class="mySlides">
+        <div class="numbertext">4 / 4</div>
+        <img src=".\Images\Tiffin service.jpg" style="width:100%">
+      </div>
+  
+      <!-- Next/previous controls -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+      <!-- Caption text -->
+      <div class="caption-container">
+        <p id="caption"></p>
+      </div>
+  
+      <!-- Thumbnail image controls -->
+      <div class="column">
+        <img class="demo" src=".\Images\tiffin 1.jpg" onclick="currentSlide(1)" alt="Nature">
+      </div>
+  
+      <div class="column">
+        <img class="demo" src=".\Images\tiffin 3.jpg" onclick="currentSlide(2)" alt="Snow">
+      </div>
+  
+      <div class="column">
+        <img class="demo" src=".\Images\tiffin 4.jpg"  onclick="currentSlide(3)" alt="Mountains">
+      </div>
+  
+      <div class="column">
+        <img class="demo" src=".\Images\Tiffin service.jpg" onclick="currentSlide(4)" alt="Lights">
+      </div>
+    </div>
+  </div>
+
+</body>
+<p><b><font color="red">Please enter your contact information and we'll send you the pricing details</font></b></p>
+<form action="" method="get">
+Email: <input type="email" name="Email"><br>
+Contact number: <input type="number" name="Contact Number"><br>
+<input type="submit" value="Submit">
+</form>
+
+<footer>
+<u><b> (c) 2024, Tiffin Service </u></b>
+<script src="JS/one_page_website.js"></script>
+</footer>
+
+</html>
